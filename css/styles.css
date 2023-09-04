@@ -1,0 +1,80 @@
+/* Removing arrow from the dropdown menu */
+.dropdown-toggle::after {
+    content: none;
+}
+
+.container-fluid{
+    margin: 0.5% 10%;
+}
+
+#what_we_do{
+    padding: 10% 10%;
+}
+
+.navbar-brand{
+    color: red !important;
+}
+
+.contact-us-image{
+    width: 100%;
+}
+
+.parent-img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.child-text {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-align: justify;
+    width: 50%;
+    font-size: 25px;
+}
+
+@media (max-width: 1028px) {
+    .child-text {
+        font-size: 25px;
+        color: black;
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+.button-new{
+    margin-top: 20px;
+}
+
+.our-project{
+    text-align: center;
+    padding: 5% 10%;;
+}
+
+
+#our-project-section{
+    margin: 5% 10%;
+    justify-content: center;
+    background-color:  black;
+}
+
+.residential-div{
+    display: block;
+    width: 50%;
+}
+
+.new-color{
+    margin: 10% 10% 0%;
+    padding: 5%;
+}
+
+.foott{
+    padding-top: 10%;
+}
+
+.copyright-section{
+    text-align: center;
+}
